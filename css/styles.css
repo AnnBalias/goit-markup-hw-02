@@ -13,5 +13,136 @@ ul {
     list-style-type: none;
 }
 
+/* #region header */
 
-/* font-family: "Raleway", sans-serif; */
+.header-logo, .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.accent {
+    color: #4d5ae5;
+}
+
+.nav-link {
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav-link:hover {
+    color: #404bbf;
+}
+
+
+.addr-link {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.addr-link:hover {
+    color: #404bbf;
+}
+
+/* #endregion header */
+
+/* #region Hero */
+
+.hero {
+    background-color: #2e2f42;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+}   
+
+.hero-button {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4d5ae5;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #404bbf;
+}
+
+/* #endregion Hero */
+
+/* #region Values */
+
+.values-title, .team-title, .portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.values-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+}
+
+.values-text,
+.team-text,
+.portfolio-text {
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* #endregion Values */
+
+/* #region Values */
+
+.team-item{
+    text-align: center;
+}
+
+/* #endregion Values */
+
+/* #region footer */
+
+.footer-section {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+}
+
+.footer-logo{
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+/* #endregion footer */
