@@ -112,7 +112,6 @@ letter-spacing: 0.02em;
 .values-text,
 .team-text,
 .portfolio-text {
-font-weight: 400;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
@@ -140,7 +139,6 @@ color: #434455;
 }
 
 .footer-text {
-    font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.02em;
 }
