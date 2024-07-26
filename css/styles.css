@@ -1,6 +1,17 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #2E2F42;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 
 /* font-family: "Raleway", sans-serif; */
